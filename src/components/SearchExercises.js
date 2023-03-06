@@ -33,6 +33,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     }
   }
   return (
+    <>
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       <Typography
         fontWeight={700}
@@ -78,6 +79,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       </Box>
     </Stack>
+    </>
   );
 };
 
