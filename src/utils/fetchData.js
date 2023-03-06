@@ -1,5 +1,5 @@
 
-const options = {
+export const exercisesOptions = {
     method: 'GET',
     headers: {
       'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
